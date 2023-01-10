@@ -18,7 +18,7 @@ To execute the code you have to run cells in the Python Notebook.
 
 First select runtime=GPU.
 
-Then install the librariers for the computation of the metrics and define the functions to load the images and transform them to a tensor (sections: "Libraries to install" and "Load the original image").
+Then install the librariers for the computation of the metrics and define the functions to load the images and transform them to a tensor (run the sections: "Libraries to install" and "Load the original image").
 Run the sections: "Implementation of the the matrix A and its pseudoinverse", "DDNM" (define the function of the DDNM algorithm), "DDNM+" (define the function of the DDNM+ algorithm) and "Evaluation metrics" (define the functions to perform the metrics).
 
 Then there are two section: one is for "CelebA" and the other one is for "ImageNet", now you can run one after the other (if you want interleave them you have to redifine the model executing the cell in which the pretrained model is loaded).
