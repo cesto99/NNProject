@@ -29,4 +29,4 @@ The images used by default are: "images_for_evaluation/woman_3.png" for CelebA a
 - download the image you want to use by just changing the wget instruction at the beginning of the section of the model you want to use (specify at the end of the path the name of one of the images in the folder "images_for_evaluation")
 - specify in the path variable the name of the image you downloaded
 
-If you want to try also our simple model, run the section "Our simple model".
+If you want to try also our simple model, run the section "Our simple model". The training phase has been performed using the images in the directory ["celeba_hq.zip"](https://www.google.com) that has been added to our Drive. If you want to perform this training phase, you have to add it in your Drive folder, download the zip file and extract all the images in order to execute the training. Except for loading the dataset in your Drive folder, the other commands are the commented ones in our colab notebook. If you want to test our trained model just skip the training part and load our checkpoint.
