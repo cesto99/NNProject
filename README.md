@@ -16,7 +16,12 @@ Code and details are in the Python Notebook.
 
 To execute the code you have to run cells in the Python Notebook.
 
-First install librariers for the computation of the metrics, then define the functions to load and transform to a tensor the images.
-Run the sections about: the implementation of the the matrix A and its pseudoinverse, the implementation of the two algorithms DDNM and DDNM+ and functions of evaluation metrics.
+First install librariers for the computation of the metrics, then define the functions to load the images and transform them to a tensor (sections: "Libraries to install" and "Load the original image").
+Run the sections: "Implementation of the the matrix A and its pseudoinverse", "DDNM" (definne the function of the DDNM algorithm), "DDNM+" (definne the function of the DDNM+ algorithm) and "Evaluation metrics" (define the function to perform the metrics).
 
-Then there are two section: one is for CelebA and the other one is for ImageNet, now you can run one after the other (if you want interlap them you have to redifine the model executing the cell in which the pretrained model is loaded).
+Then there are two section: one is for "CelebA" and the other one is for "ImageNet", now you can run one after the other (if you want interleave them you have to redifine the model executing the cell in which the pretrained model is loaded).
+
+By running the last two sections you can perform all the task defined above on the choosen image for CelebA and on the one chosen for ImageNet (in the ImageNet section there is implemented at the end also the mask shift trick). 
+The images used by default are "NNProject/images_for_evaluation/woman3.png" for CelebA and NNProject/images_for_evaluation/squirrel.png" for ImageNet, but you can use also the other images we used for the evaluation by just changing the path passed to the function "load_image" at the beginning of the section "CelebA" or "ImageNet".
+
+If you want to try also our simple model, run the section "Our simple model".
