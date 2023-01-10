@@ -17,6 +17,6 @@ Code and details are in the Python Notebook.
 To execute the code you have to run cells in the Python Notebook.
 
 First install librariers for the computation of the metrics, then define the functions to load and transform to a tensor the images.
-Run the sections about the implementation of the the matrix A and its pseudoinverse, the implementation of the two algorithms DDNM and DDNM and functions of evaluation metrics.
+Run the sections about: the implementation of the the matrix A and its pseudoinverse, the implementation of the two algorithms DDNM and DDNM+ and functions of evaluation metrics.
 
-Then there are two section: one is for CelebA and the other is for ImageNet, now you can run one after the other (if you want interlap them you have to redifine the model executing the cell in which the pretrained model is loaded).
+Then there are two section: one is for CelebA and the other one is for ImageNet, now you can run one after the other (if you want interlap them you have to redifine the model executing the cell in which the pretrained model is loaded).
